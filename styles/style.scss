@@ -127,3 +127,33 @@ body {
 /**
  * App code
  */
+
+$defaultFont: 0px; 
+$bigFont: 64px;
+$slateColor: #555;
+
+.container{
+
+    display: block;
+    width: 50%;
+    margin: auto;
+
+    .headline {
+        color: $slateColor;
+        text-align: center; 
+    }
+
+    .listing {
+
+
+        img {
+            width: 200%;
+            border: 10px tomato solid;
+            box-shadow: 30px 30px 30px grey;
+        }
+        p {
+            font-size: $bigFont;
+        }
+    }
+}
+
